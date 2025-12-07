@@ -19,6 +19,11 @@ jobs:
           with:
             dotnet-version: '8.0.x'
 
+        - name: Install Chrome
+          run: 
+           sudo apt-get update
+           sudo apt-get install -y google-chrome-stable    
+
         - name: Install dependencies
           run: dotnet restore
 
@@ -26,4 +31,6 @@ jobs:
           run: dotnet build --no-restore
 
         - name: Run tests
+          env:
+            CHROMEWEBDRIVER: /usr/bin/google-chrome
           run: dotnet test --verbosity normal          

@@ -180,3 +180,4 @@ C:\Users\ISA\Desktop\Workshop1\1-SeleniumIDE\SeleniumIDE\bin\Debug\net8.0\System
 C:\Users\ISA\Desktop\Workshop1\1-SeleniumIDE\SeleniumIDE\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 C:\Users\ISA\Desktop\Workshop1\1-SeleniumIDE\SeleniumIDE\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\ISA\Desktop\Workshop1\1-SeleniumIDE\SeleniumIDE\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\ISA\Desktop\Workshop1\1-SeleniumIDE\SeleniumIDE\obj\Debug\net8.0\SeleniumIde.sourcelink.json
