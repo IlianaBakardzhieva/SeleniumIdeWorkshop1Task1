@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iyF23Yvefew=",
+  "dgSpecHash": "60qwpr7WKsw=",
   "success": true,
   "projectFilePath": "C:\\Users\\ISA\\Desktop\\Workshop1\\1-SeleniumIDE\\SeleniumIDE\\SeleniumIde.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\ISA\\.nuget\\packages\\nunit.analyzers\\4.11.2\\nunit.analyzers.4.11.2.nupkg.sha512",
     "C:\\Users\\ISA\\.nuget\\packages\\nunit3testadapter\\6.0.0\\nunit3testadapter.6.0.0.nupkg.sha512",
     "C:\\Users\\ISA\\.nuget\\packages\\selenium.webdriver\\4.39.0\\selenium.webdriver.4.39.0.nupkg.sha512",
+    "C:\\Users\\ISA\\.nuget\\packages\\selenium.webdriver.chromedriver\\144.0.7559.300-beta\\selenium.webdriver.chromedriver.144.0.7559.300-beta.nupkg.sha512",
     "C:\\Users\\ISA\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",
     "C:\\Users\\ISA\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
     "C:\\Users\\ISA\\.nuget\\packages\\system.io.pipelines\\10.0.0\\system.io.pipelines.10.0.0.nupkg.sha512",

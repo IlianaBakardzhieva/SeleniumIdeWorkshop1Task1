@@ -722,6 +722,12 @@
           }
         }
       },
+      "Selenium.WebDriver.ChromeDriver/144.0.7559.300-beta": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
+        }
+      },
       "System.Collections.Immutable/8.0.0": {
         "type": "package",
         "compile": {
@@ -1743,6 +1749,30 @@
         "selenium.webdriver.nuspec"
       ]
     },
+    "Selenium.WebDriver.ChromeDriver/144.0.7559.300-beta": {
+      "sha512": "3eCg68nx9ZezoKuyg7naqUfJeqz2QSU+D8dg8cE8VuTknfDncsFCq4ZCSQIHOS1yjFdGygkof1hkP65hMPjabw==",
+      "type": "package",
+      "path": "selenium.webdriver.chromedriver/144.0.7559.300-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "build/DefinePropertiesChromeDriver.targets",
+        "build/Selenium.WebDriver.ChromeDriver.targets",
+        "driver/linux64/LICENSE.chromedriver",
+        "driver/linux64/chromedriver",
+        "driver/mac64/LICENSE.chromedriver",
+        "driver/mac64/chromedriver",
+        "driver/mac64arm/LICENSE.chromedriver",
+        "driver/mac64arm/chromedriver",
+        "driver/win32/LICENSE.chromedriver",
+        "driver/win32/chromedriver.exe",
+        "nupkg-icon.png",
+        "selenium.webdriver.chromedriver.144.0.7559.300-beta.nupkg.sha512",
+        "selenium.webdriver.chromedriver.nuspec"
+      ]
+    },
     "System.Collections.Immutable/8.0.0": {
       "sha512": "AurL6Y5BA1WotzlEvVaIDpqzpIPvYnnldxru8oXJU2yFxFUy3+pNXjXd1ymO+RA0rq0+590Q8gaz2l3Sr7fmqg==",
       "type": "package",
@@ -1977,6 +2007,7 @@
       "NUnit.Analyzers >= 4.11.2",
       "NUnit3TestAdapter >= 6.0.0",
       "Selenium.WebDriver >= 4.39.0",
+      "Selenium.WebDriver.ChromeDriver >= 144.0.7559.300-beta",
       "coverlet.collector >= 6.0.4"
     ]
   },
@@ -2051,6 +2082,10 @@
           "Selenium.WebDriver": {
             "target": "Package",
             "version": "[4.39.0, )"
+          },
+          "Selenium.WebDriver.ChromeDriver": {
+            "target": "Package",
+            "version": "[144.0.7559.300-beta, )"
           },
           "coverlet.collector": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
